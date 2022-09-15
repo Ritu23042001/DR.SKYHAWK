@@ -2,10 +2,6 @@ function digest = md5(message)
     % digest = md5(message)
     %  Compute the MD5 digest of the message, as a hexadecimal digest.
  
-    % Follow the MD5 algorithm from RFC 1321 [1] and Wikipedia [2].
-    %  [1] http://tools.ietf.org/html/rfc1321
-    %  [2] http://en.wikipedia.org/wiki/MD5
- 
     % m is the modulus for 32-bit unsigned arithmetic.
     m = 2 ^ 32;
  
